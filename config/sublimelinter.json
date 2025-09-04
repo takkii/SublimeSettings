@@ -1,0 +1,75 @@
+// SublimeLinter Settings - User
+{
+    // "debug": true,
+    "linters": {
+        "rubocop": {
+            "@disable": false,
+            "args": [
+            //<== --configと記載
+            "--config",
+            //<== 使用したい.rubocop.ymlのpathを記載
+            "C:/Users/username/GitLab/zinbeijett/.rubocop.yml"
+        ],
+            "excludes": []
+        },
+        "ruby": {
+            "@disable": false,
+            "args": ["-Ku"],
+            "excludes": []
+        },
+        // python pep8 rule check
+        "flake8": {
+            "executable": [
+                "C:/Users/username/scoop/apps/python/current/python.exe",
+                "-m",
+                "flake8"
+            ],
+            "styles": [
+                {
+                    "mark_style": "outline",
+                    "scope": "comment",
+                    "icon": "none",
+                    "codes": ["W291", "W292", "W293"],
+                    "annotation": "{code}<br>&nbsp;&nbsp;{msg}",
+                    "phantom": "{msg}",
+                }
+            ]
+        },
+        // python typechecker
+        "mypy": {
+            "executable": [
+                "C:/Users/username/scoop/apps/python/current/python.exe",
+                "-m",
+                "mypy"
+            ],
+            "args": [
+                "--allow-redefinition",
+                "--check-untyped-defs",
+                "--ignore-missing-imports",
+                "--no-strict-optional",
+                "--no-warn-no-return",
+                "--warn-return-any",
+                "--warn-redundant-casts",
+            ],
+        },
+        // lua syntax check
+        "luacheck": {
+            "executable": [
+                "C:/Users/username/scoop/shims/luacheck.exe",
+                "--no-config",
+                "-i"
+            ],
+            "args": [
+                "vim",
+            ]
+        },
+        // cpp syntax check
+        "cppcheck": {
+            "@disable": false,
+            "executable": ["C:/Users/username/scoop/shims/cppcheck.exe"],
+            "std": [
+                "c89", "c99", "c11", "c17", "c20"
+            ],
+        },
+    }
+}

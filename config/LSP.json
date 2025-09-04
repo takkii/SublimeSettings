@@ -1,0 +1,76 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+    "clients": {
+        "pyright":
+        {
+            "settings": {
+                "enabled": true,
+                "command":
+                [
+                    "C:/Users/username/scoop/apps/python/current/Scripts/pyright.exe"
+                ],
+                "selector": "source.python | text.html.python",
+                "initializationOptions": {
+                    "diagnostics": false,
+                },
+            },
+        },
+        "solargraph":
+        {
+            "settings": {
+                "enabled": true,
+                "command":
+                [
+                    "C:/Users/username/scoop/apps/ruby/current/gems/bin/solargraph.bat", "stdio"
+                ],
+                "selector": "source.ruby | text.html.ruby",
+                "initializationOptions": {
+                    "diagnostics": false,
+                },
+            },
+        },
+        "lua-language-server":
+        {
+            "settings": {
+                "enabled": true,
+                "command":
+                [
+                    "C:/Users/username/scoop/shims/lua-language-server.exe"
+                ],
+            "selector": "source.lua | text.html.lua",
+            "initializationOptions": {
+                "diagnostics": false,
+                },
+            },
+        },
+        "clangd":
+        {
+            "settings": {
+                "enabled": true,
+                "command":
+                [
+                    "C:/Users/username/scoop/shims/clangd.exe"
+                ],
+            "selector": "source.cpp | text.html.cpp",
+            "initializationOptions": {
+                "diagnostics": false,
+                },
+            },
+        },
+        // npm i -g bash-language-server
+        "bash":
+        {
+            "settings": {
+                "enabled": true,
+                "command":
+                [
+                    "C:/Users/username/scoop/apps/nodejs/current/bin/bash-language-server.cmd", "start"
+                ],
+            "selector": "source.shell.bash",
+            "initializationOptions": {
+                "diagnostics": false,
+                },
+            },
+        },
+    }
+}
