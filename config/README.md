@@ -37,5 +37,10 @@ scoop install python311
 pip3 install yapf
 ```
 
-_Update history: 2025/03/22_
+#### Sublime Settins
+
+- SoDaReloaded
+- Flatgrammer
+
+_Update history: 2026/05/09_
 
