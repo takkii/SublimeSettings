@@ -2,16 +2,16 @@
 {
     // "debug": true,
     "linters": {
-        "rubocop": {
-            "@disable": false,
-            "args": [
-            //<== --configと記載
-            "--config",
-            //<== 使用したい.rubocop.ymlのpathを記載
-            "C:/Users/username/GitLab/zinbeijett/.rubocop.yml"
-        ],
-            "excludes": []
-        },
+        // "rubocop": {
+        //     "@disable": false,
+        //     "args": [
+        //     //<== --configと記載
+        //     "--config",
+        //     //<== 使用したい.rubocop.ymlのpathを記載
+        //     "C:/Users/sudok/GitLab/sheltered-girl/.rubocop.yml"
+        // ],
+        //     "excludes": []
+        // },
         "ruby": {
             "@disable": false,
             "args": ["-Ku"],
@@ -20,7 +20,7 @@
         // python pep8 rule check
         "flake8": {
             "executable": [
-                "C:/Users/username/scoop/apps/python/current/python.exe",
+                "C:/Users/sudok/scoop/apps/python313/current/python.exe",
                 "-m",
                 "flake8"
             ],
@@ -38,7 +38,7 @@
         // python typechecker
         "mypy": {
             "executable": [
-                "C:/Users/username/scoop/apps/python/current/python.exe",
+                "C:/Users/sudok/scoop/apps/python313/current/python.exe",
                 "-m",
                 "mypy"
             ],
@@ -55,7 +55,7 @@
         // lua syntax check
         "luacheck": {
             "executable": [
-                "C:/Users/username/scoop/shims/luacheck.exe",
+                "C:/Users/sudok/scoop/shims/luacheck.exe",
                 "--no-config",
                 "-i"
             ],
@@ -66,7 +66,7 @@
         // cpp syntax check
         "cppcheck": {
             "@disable": false,
-            "executable": ["C:/Users/username/scoop/shims/cppcheck.exe"],
+            "executable": ["C:/Users/sudok/scoop/shims/cppcheck.exe"],
             "std": [
                 "c89", "c99", "c11", "c17", "c20"
             ],
