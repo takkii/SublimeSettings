@@ -37,7 +37,7 @@ scoop install python311
 pip3 install yapf
 ```
 
-#### Sublime Settins
+#### Color Schemes and Themes
 
 - SoDaReloaded
 - Flatgrammer
