@@ -1,9 +1,4 @@
-### SublimeText4 settings manual
-
-```markdown
-# In SublimeText4
-package install
-```
+### SublimeText4 configurations
 
 #### LSP
 
@@ -21,7 +16,9 @@ package install
 
 - SublimeLinter-flake8
 
-#### "$HOME\AppData\Roaming\Sublime Text\Packages\User"
+#### $HOME\AppData\Roaming\Sublime Text\Packages\User
+
+_+ Plugins Folder path_
 
 - Python3Build.sublime-build
 
