@@ -1,6 +1,0 @@
-{
-    "cmd": ["C:/Users/username/scoop/apps/python311/current/python.exe", "$file"],
-    "selector": "source.python",
-    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
-    "encoding": "cp932",
-}

@@ -1,5 +1,0 @@
-{
-    "cmd": ["C:/Users/username/scoop/apps/python311/current/Scripts/yapf", "-i", "$file"],
-    "selector": "source.python",
-    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)"
-}
