@@ -31,7 +31,7 @@
   "executionEnvironments": [
     {
       "root": "src/web",
-      "pythonVersion": "3.11",
+      "pythonVersion": "3.13",
       "pythonPlatform": "Windows",
       "extraPaths": [
         "src/service_libs"
@@ -40,7 +40,7 @@
     },
     {
       "root": "src/sdk",
-      "pythonVersion": "3.11",
+      "pythonVersion": "3.13",
       "extraPaths": [
         "src/backend"
       ]
