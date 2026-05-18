@@ -3,34 +3,33 @@
 #### LSP
 
 - LSP-pyright
-
 - LSP-lua
-
 - LSP-clangd
+- LSP-elixir
 
 #### SublimeLinter
 
 - SublimeLinter-luacheck
-
 - SublimeLinter-mypy
-
 - SublimeLinter-flake8
 
-#### $HOME\AppData\Roaming\Sublime Text\Packages\User
+#### Plugins Folder PATH
 
-_+ Plugins Folder path_
+```markdown
+$HOME\AppData\Roaming\Sublime Text\Packages\User
+```
+
+#### Use debugpy build file.
 
 - Python3Build.sublime-build
-
 - Python3Run.sublime-build
-
 - Python3YAPF.sublime-build
 
 #### Python3 Windows Env.
 
 ```markdown
-# Use, Python3.11 versions.
-scoop install python311
+# Use, Python3.13 versions.
+scoop install python313
 pip3 install yapf
 ```
 
@@ -39,5 +38,11 @@ pip3 install yapf
 - SoDaReloaded
 - Flatgrammer
 
-_Update history: 2026/05/09_
+#### Other Plugins
+
+- LSP
+- Elixir
+- DotENV
+
+_Update history: 2026/05/18_
 
