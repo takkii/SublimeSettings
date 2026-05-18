@@ -7,7 +7,7 @@
             "enabled": true,
             "command":
             [
-                "C:/Users/username/scoop/apps/python311/current/python.exe", "$file"
+                "C:/Users/username/scoop/apps/python313/current/python.exe", "$file"
             ],
             "selector": "source.python | text.html.python",
         },
@@ -22,7 +22,7 @@
             "enabled": true,
             "command":
             [
-                "C:/Users/username/scoop/apps/python311/current/python.exe", "-D", "$file"
+                "C:/Users/username/scoop/apps/python313/current/python.exe", "-D", "$file"
             ],
             "selector": "source.python | text.html.python",
         },
